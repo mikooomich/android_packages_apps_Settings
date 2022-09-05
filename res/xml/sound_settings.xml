@@ -239,6 +239,14 @@
         android:title="@string/emergency_tone_title"
         android:summary="%s"
         android:order="-10"/>
+        
+    <!--App Volume-->
+    <SwitchPreference
+        android:key="show_app_volume"
+        android:title="@string/app_volume_title"
+        android:summary="@string/app_volume_summary"
+        android:defaultValue="true"
+        android:order="-5"/>
 
     <Preference
         android:key="sound_work_settings"
